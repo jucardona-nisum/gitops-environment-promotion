@@ -18,6 +18,6 @@ spec:
       containers:
       - name: webserver-simple
         imagePullPolicy: Always
-        image: docker.io/nachocardona/gitops-promotion-source-code:
+        image: docker.io/nachocardona/gitops-promotion-source-code:sha256:82618c4fc5a1a981726f16b97f78c94f3228fd83ed4d6bd147f150afb6b8b48c
         ports:
         - containerPort: 8080
